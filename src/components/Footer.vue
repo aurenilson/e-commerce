@@ -22,6 +22,7 @@
    }
 </script>
 <style scoped>
+   /* apenas para teste */
 /* *{
    border: 1px solid red;
    padding: 1px;
