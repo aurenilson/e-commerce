@@ -13,7 +13,7 @@
         <article>
             <!-- texto sobre os produtos -->
         </article>
-        <Modal />
+        <!-- <Modal /> Só um exemplo -->
     </main>
 </template>
 

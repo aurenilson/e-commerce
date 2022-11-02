@@ -1,16 +1,9 @@
 <template>
-    <div>
+    <main>
         <Header />
-        <div class="wrapper">
-
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/about">About</RouterLink>
-            </nav>
-        </div>
+        <RouterView />
         <Footer />
-    </div>
-
+    </main>
 </template>
 
 <script>

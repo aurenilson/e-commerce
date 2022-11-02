@@ -10,10 +10,40 @@ const router = createRouter({
             component: HomeView,
         },
         {
-            path: "/about",
-            name: "about",
-            component: () => import("../views/About.vue"),
+            path: "/checkout",
+            name: "checkout",
+            component: () => import("../views/Checkout.vue"),
         },
+        {
+            path: "/pedidos",
+            name: "pedidos",
+            component: () => import("../views/Pedidos.vue"),
+        },
+        {
+            path: "/perfil",
+            name: "perfil",
+            component: () => import("../views/Perfil.vue"),
+        },
+        {
+            path: "/privacidade",
+            name: "privacidade",
+            component: () => import("../views/Privacidade.vue"),
+        },
+        {
+            path: "/cookies",
+            name: "cookies",
+            component: () => import("../views/Cookies.vue"),
+        },
+        {
+            path: "/institucional",
+            name: "institucional",
+            component: () => import("../views/Institucional.vue"),
+        },
+        {
+            path: "/recuperacao",
+            name: "recuperacao",
+            component: () => import("../views/Recuperacao.vue"),
+        }
     ],
 });
 
