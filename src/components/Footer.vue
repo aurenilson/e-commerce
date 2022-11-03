@@ -3,10 +3,10 @@
          <div class="uk-container uk-background-primary">
                <img class="uk-align-right" src="/img/parque_das_palmeiras.png " alt="Logo do Parque">
             <ul class="uk-list uk-link-text uk-width-3-4">
-               <li><RouterLink to="/Home" class="uk-text-secondary">Home</RouterLink></li>
-               <li><RouterLink to="/Institucional" class="uk-text-secondary">Institucional</RouterLink></li>
-               <li><RouterLink to="/Cookies" class="uk-text-secondary">Políticas de Cookies</RouterLink></li>
-               <li><RouterLink to="/Privacidade" class="uk-text-secondary">Políticas de Privacidade</RouterLink></li>
+               <li><RouterLink to="/Home" class="uk-text-secondary uk-text-decoration-none uk-button-text">Home</RouterLink></li>
+               <li><RouterLink to="/Institucional" class="uk-text-secondary uk-text-decoration-none uk-button-text">Institucional</RouterLink></li>
+               <li><RouterLink to="/Cookies" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Cookies</RouterLink></li>
+               <li><RouterLink to="/Privacidade" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Privacidade</RouterLink></li>
             </ul>
          </div>
          <div class="uk-container uk-background-secondary">

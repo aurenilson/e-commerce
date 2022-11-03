@@ -393,8 +393,8 @@ Os eventuais litígios deverão ser apresentados no foro da comarca em que se en
                 <ul class="uk-list uk-link-text">
                     <h3 class="uk-remove-margin-bottom">Políticas do nosso site</h3>
                     <h2 class="uk-margin-remove-top">Informações</h2>
-                    <li><RouterLink to="/Privacidade" class="uk-text-secondary">Políticas de privacidade</RouterLink></li>
-                    <li><RouterLink to="/Cookies" class="uk-text-secondary">Política de cookies</RouterLink></li>
+                    <li><RouterLink to="/Privacidade" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de privacidade</RouterLink></li>
+                    <li><RouterLink to="/Cookies" class="uk-text-secondary uk-text-decoration-none uk-button-text">Política de cookies</RouterLink></li>
                 </ul>
             </div>
         </div>
