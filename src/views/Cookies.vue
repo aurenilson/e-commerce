@@ -1,8 +1,8 @@
 <template>
     <main>
-        <div class="uk-container">
+        <div class="uk-container uk-margin-top">
             <div class="uk-width-3-4 uk-align-right uk-text-secondary">
-                <h2>Política de cookies</h2>
+                <h2>Política de Cookies</h2>
                 <h3 class="uk-text-center">Política de privacidade e cookies Parque das Palmeiras</h3>
                 <h5>Informações Gerais
 A Política de Privacidade do Parque das Palmeiras, marca da PARQUE DAS PALMEIRAS PARTICIPAÇÕES S.A. sob o número 01.234.567/8910-11 aplicável ao site http://localhost:5173, contém informações a respeito do modo como tratamos, total ou parcialmente, de forma automatizada ou não, os dados pessoais dos usuários que acessam nosso site. Seu objetivo é esclarecer os interessados acerca dos tipos de dados que são coletados, dos motivos da coleta e da forma como o usuário poderá atualizar, gerenciar ou excluir estas informações.
