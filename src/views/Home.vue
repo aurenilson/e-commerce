@@ -3,18 +3,20 @@
         <section class="uk-section uk-background-cover uk-flex uk-flex-center" data-src="/img/fundo-home.jpg" uk-img>
             
                 <div class="uk-width-1-2 uk-margin-xlarge-left uk-margin-xlarge-right uk-light uk-text-center ">
-                    <h1>Texto sobre produtos</h1>
+                    <h1>Os Melhores Tours!</h1>
                     <p class="uk-text-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo eaque enim perferendis recusandae architecto tempora nam! Voluptatibus a doloribus deleniti nesciunt alias sint ipsam beatae, possimus minima laboriosam id.</p>
+                    
                 </div>
                 <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-width-1-2 uk-margin-xlarge-right">
                     <h3 class="">Compre o seu ingreso</h3>
                     <label for="data" class="uk-form-label">Selecione a data</label>
                     <input type="date" name="data" id="data" class="uk-input">
                     <label for="quantidade" class="uk-form-label">Informe quantos ingressos</label>
-                    <input type="number" name="quantidade" id="quantidade" class="uk-input">
+                    <input type="number" name="quantidade" id="quantidade" min="0" class="uk-input">
                     <label for="ingressos" class="uk-form-label">Selecione o produto</label>
                     <select name="ingressos" id="ingressos" class="uk-select">
-                        <!-- colocar os produto -->
+                        <option>Selecione...</option>
+                        <option>*Back</option>
                     </select>
                 </div>
         </section>
@@ -22,13 +24,9 @@
             
             <div class="uk-position-relative uk-visible-toggle uk-light uk-width-xlarge " tabindex="-1" uk-slideshow>
                 
-                <!-- trocar imagens -->
                 <ul class="uk-slideshow-items">
-                    <li>
-                        <img src="/img/fundo-home.jpg" alt="não deu" uk-cover>
-                    </li>
-                    <li>
-                        <img src="/img/parque_das_palmeiras.png" alt="" uk-cover>
+                    <li v-for="(img, index) in imagens" v-bind:key="index">
+                        <img :src="img" alt="teste" uk-cover>
                     </li>
                 </ul>
 
@@ -41,16 +39,25 @@
             <h1 class="uk-article-title">O melhor lugar para visitar!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequatur incidunt alias distinctio, quasi quaerat quas at aperiam dolore temporibus dicta, ipsam, iste quia possimus. Aliquid nobis provident non recusandae.</p>
         </article>
-        <!-- <Modal /> Só um exemplo -->
     </main>
 </template>
 
 
 <script >
-import Modal from "../components/Modal.vue"
+import { createDOMCompilerError } from "@vue/compiler-dom";
     export default {
         components: {
             Modal
+        },
+        data() {
+            return{ 
+                imagens: [
+                    '/img/carrossel1.jpg',
+                    '/img/carrossel2.jpg',
+                    '/img/carrossel3.jpg',
+                    '/img/carrossel4.jpg'
+                ]
+            }
         }
     }
 </script>
