@@ -14,9 +14,6 @@
         <input type="text" class="uk-input uk-width-1-3" placeholder="Celular">
         <li><label class="uk-text-secondary uk-form-label" type="text">Email: </label></li>
         <input type="text" class="uk-input uk-width-1-3" placeholder="Email">
-
-        
-        
     </div>
 </template>
 
