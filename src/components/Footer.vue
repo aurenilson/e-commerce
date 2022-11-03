@@ -16,7 +16,7 @@
                <div class="uk-margin-top">
                <div class="uk-text-center">
                   <p>Powered By</p>
-                  <img src="/img/imply_logo.png" width="180px" height="150px" alt="Logo da Imply">
+                  <img src="/img/imply-logo.jpg" width="150px" height="130px" alt="Logo da Imply">
                </div>
             </div>
          </div>
