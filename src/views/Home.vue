@@ -15,8 +15,10 @@
                     <input type="number" name="quantidade" id="quantidade" min="0" class="uk-input">
                     <label for="ingressos" class="uk-form-label">Selecione o produto</label>
                     <select name="ingressos" id="ingressos" class="uk-select">
-                        <option>Selecione...</option>
+
+                        <option default disabled>Selecione...</option>
                         <option>*Back</option>
+
                     </select>
                 </div>
         </section>
