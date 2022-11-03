@@ -1,16 +1,18 @@
 <template uk-container>
     <div>
         <div class= "uk-text-center uk-background-primary">
-            <div class="uk-width-1-4 uk-align-right uk-inline">
+            <div class="uk-width-1-4 uk-align-right">
                 <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Home</a></div>
                 <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Cadastro</a></div>
+                <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Carrinho</a></div>
                 <div class="uk-width-1-4 uk-inline">
-                    <a class="uk-text-secondary uk-text-decoration-none" href="/"><span uk-icon="user"></span></a>
-                    <div uk-dropdown="mode:click">
-                        <h6 class="uk-text-secondary uk-text-decoration-none uk-button-text"><span uk-icon="user"></span> Perfil</h6>
-                        <h6 class="uk-text-secondary uk-text-decoration-none uk-button-text"><span uk-icon=""></span> Pedidos</h6>
-                        <h6 class="uk-text-secondary uk-text-decoration-none uk-button-text"><span uk-icon=""></span> Trocar Senha</h6>
-                        <h6 class="uk-text-secondary uk-text-decoration-none uk-button-text"><span uk-icon="sign-out"></span> Sair</h6>
+                    <a class="uk-text-secondary uk-text-decoration-none" href="/"><span uk-icon="user"></span>user</a>
+                    <div uk-dropdown="mode:click" >
+                        <li><span uk-icon="user"></span><RouterLink to="/perfil" class="uk-text-secondary uk-text-decoration-none uk-button-text">Perfil</RouterLink></li>
+                        <li><RouterLink to="/pedidos" class="uk-text-secondary uk-text-decoration-none uk-button-text">Pedidos</RouterLink></li>
+                        <li><RouterLink to="/recuperacao" class="uk-text-secondary uk-text-decoration-none uk-button-text">Trocar Senha</RouterLink></li>
+                        <li><span uk-icon="sign-out"></span><RouterLink to="/" class="uk-text-secondary uk-text-decoration-none uk-button-text">Sair</RouterLink></li>
+                        
                     </div>
                 </div>
             </div>
@@ -19,6 +21,7 @@
             <!-- Dá pra fazer os links com esse RouterLink -->
             <!-- Os caminhos para as páginas estão no index.js da pasta router, é o path de cada um.-->
             <RouterLink to="/checkout">Checkout</RouterLink> 
+             
 
         </div>
     </div>
