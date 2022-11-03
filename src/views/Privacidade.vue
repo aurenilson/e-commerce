@@ -4,7 +4,7 @@
             <div class="uk-width-3-4 uk-align-right uk-text-secondary">
                 <h2>Política de Privacidade</h2>
                 <h3 class="uk-text-center">Política de privacidade e cookies Parque das Palmeiras</h3>
-                <h5>Informações Gerais
+                <h5 class="uk-text-justify">Informações Gerais
 A Política de Privacidade do Parque das Palmeiras, marca da PARQUE DAS PALMEIRAS PARTICIPAÇÕES S.A. sob o número 01.234.567/8910-11 aplicável ao site http://localhost:5173, contém informações a respeito do modo como tratamos, total ou parcialmente, de forma automatizada ou não, os dados pessoais dos usuários que acessam nosso site. Seu objetivo é esclarecer os interessados acerca dos tipos de dados que são coletados, dos motivos da coleta e da forma como o usuário poderá atualizar, gerenciar ou excluir estas informações.
 
 Esta Política de Privacidade foi elaborada em conformidade com a Lei Federal n. 12.965 de 23 de abril de 2014 (Marco Civil da Internet), com a Lei Federal n. 13.709, de 14 de agosto de 2018 (Lei de Proteção de Dados Pessoais - LGPD) e com o Regulamento UE n. 2016/679 de 27 de abril de 2016 (Regulamento Geral Europeu de Proteção de Dados Pessoais - RGDP).
@@ -345,7 +345,7 @@ O responsável pelo tratamento dos dados se encarregará diretamente do tratamen
 
 O encarregado de proteção de dados (data protection officer) é o profissional encarregado de informar, aconselhar e controlar o responsável pelo tratamento dos dados, bem como os trabalhadores que tratem os dados, a respeito das obrigações do site nos termos do RGDP, da Lei de Proteção de Dados Pessoais e de outras disposições de proteção de dados presentes na legislação nacional e internacional, em cooperação com a autoridade de controle competente.
 
-Neste site o encarregado de proteção de dados (data protection officer) é Vinícius Ribeiro Fontoura, que poderá ser contactada pelo e-mail: lgpd@parquetur.com.br 
+Neste site o encarregado de proteção de dados (data protection officer) é Helena Della Giustina Aguiar, que poderá ser contactada pelo e-mail: lgpd@parquetur.com.br 
 
  
 
