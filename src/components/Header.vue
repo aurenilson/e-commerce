@@ -1,4 +1,4 @@
-<template uk-container>
+<template class="uk-container">
     <div>
         <div class= "uk-text-center uk-background-primary">
             <div class="uk-width-1-4 uk-align-right uk-inlinem uk-margin-top">
