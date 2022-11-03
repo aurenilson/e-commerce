@@ -3,10 +3,10 @@
          <div class="uk-container uk-background-primary">
                <img class="uk-align-right" src="/img/parque_das_palmeiras.png " alt="Logo do Parque">
             <ul class="uk-list uk-link-text uk-width-3-4">
-               <li><RouterLink to="/Home" class="uk-text-secondary uk-text-decoration-none uk-button-text">Home</RouterLink></li>
-               <li><RouterLink to="/Institucional" class="uk-text-secondary uk-text-decoration-none uk-button-text">Institucional</RouterLink></li>
-               <li><RouterLink to="/Cookies" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Cookies</RouterLink></li>
-               <li><RouterLink to="/Privacidade" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Privacidade</RouterLink></li>
+               <li><RouterLink to="/" class="uk-text-secondary uk-text-decoration-none uk-button-text">Home</RouterLink></li>
+               <li><RouterLink to="/institucional" class="uk-text-secondary uk-text-decoration-none uk-button-text">Institucional</RouterLink></li>
+               <li><RouterLink to="/cookies" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Cookies</RouterLink></li>
+               <li><RouterLink to="/privacidade" class="uk-text-secondary uk-text-decoration-none uk-button-text">Políticas de Privacidade</RouterLink></li>
             </ul>
          </div>
          <div class="uk-container uk-background-secondary">
@@ -16,7 +16,7 @@
                <div class="uk-margin-top">
                <div class="uk-text-center">
                   <p>Powered By</p>
-                  <img src="/img/imply-logo.jpg" width="150px" height="130px" alt="Logo da Imply">
+                  <img class="uk-border-rounded" src="/img/imply-logo.jpg" width="150px" height="130px" alt="Logo da Imply">
                </div>
             </div>
          </div>

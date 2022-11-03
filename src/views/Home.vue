@@ -14,7 +14,7 @@
                     <input type="number" name="quantidade" id="quantidade" class="uk-input">
                     <label for="ingressos" class="uk-form-label">Selecione o produto</label>
                     <select name="ingressos" id="ingressos" class="uk-select">
-                        <!-- colocar os produto -->
+                        <option default disabled>Selecione</option>
                     </select>
                 </div>
         </section>
