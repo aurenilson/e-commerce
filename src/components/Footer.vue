@@ -1,12 +1,12 @@
 <template>
       <div>
          <div class="uk-container uk-background-primary">
-               <img class=" uk-align-right" src="/img/parque_das_palmeiras.png " alt="Logo do Parque">
+               <img class="uk-align-right" src="/img/parque_das_palmeiras.png " alt="Logo do Parque">
             <ul class="uk-list uk-link-text uk-width-3-4">
-               <li><a class="uk-text-secondary" href="#">Home</a></li>
-               <li><a class="uk-text-secondary" href="#">Institucional</a></li>
-               <li><a class="uk-text-secondary" href="#">Políticas de cookies</a></li>
-               <li><a class="uk-text-secondary" href="#">Políticas de privacidade</a></li>
+               <li><RouterLink to="/Home" class="uk-text-secondary">Home</RouterLink></li>
+               <li><RouterLink to="/Institucional" class="uk-text-secondary">Institucional</RouterLink></li>
+               <li><RouterLink to="/Cookies" class="uk-text-secondary">Políticas de Cookies</RouterLink></li>
+               <li><RouterLink to="/Privacidade" class="uk-text-secondary">Políticas de Privacidade</RouterLink></li>
             </ul>
          </div>
          <div class="uk-container uk-background-secondary">
@@ -27,10 +27,3 @@
       name: 'Footer'
    }
 </script>
-<style scoped>
-   /* apenas para teste */
-/* *{
-   border: 1px solid red;
-   padding: 1px;
-} */
-</style>

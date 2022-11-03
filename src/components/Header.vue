@@ -1,6 +1,6 @@
 <template uk-container>
     <div>
-        <div class= "uk-text-center">
+        <div class= "uk-text-center uk-background-primary">
             <div class="uk-width-1-4" ><img src="/img/parque_das_palmeiras.png" alt="Logo do site"></div>
             <div class="uk-width-1-4"><a href="/">Home</a></div>
             <div class="uk-width-1-4"> <a href="/">Cadastro</a></div>
