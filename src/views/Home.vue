@@ -48,9 +48,6 @@
 <script >
 import { createDOMCompilerError } from "@vue/compiler-dom";
     export default {
-        components: {
-            Modal
-        },
         data() {
             return{ 
                 imagens: [
