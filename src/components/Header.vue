@@ -1,7 +1,7 @@
 <template uk-container>
     <div>
         <div class= "uk-text-center uk-background-primary">
-            <div class="uk-width-1-4 uk-align-right">
+            <div class="uk-width-1-4 uk-align-right uk-list">
                 <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Home</a></div>
                 <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Cadastro</a></div>
                 <div class="uk-width-1-4"><a class="uk-text-secondary uk-text-decoration-none uk-button-text" href="/">Carrinho</a></div>
